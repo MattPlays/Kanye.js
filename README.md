@@ -1,2 +1,23 @@
 # Kanye.js
- Kayne.js utilizes the https://kayne.rest/ API to return random quotes from Kanye West
+ Kanye.js utilizes the https://kanye.rest/ API to return random quotes from Kanye West
+
+# Installation
+```bash
+npm i kanye.js
+```
+
+# Usage
+```javascript
+const kanye = require("kanye.js")
+kanye().then(({quote}) => {
+    console.log(quote)
+});
+// Or
+(async () => {
+    let {quote} = await kanye();
+    console.log(quote);
+})();
+```
+
+# License
+Kanye.js is Licensed under the [MIT License](https://github.com/MattPlays/Kanye.js/blob/main/LICENSE)

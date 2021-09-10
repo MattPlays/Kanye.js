@@ -1,0 +1,24 @@
+{
+  "name": "kanye.js",
+  "version": "1.0.0",
+  "description": "Kanye.js utilizes the https://kanye.rest/ API to return random quotes from Kanye West",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattPlays/Kanye.js.git"
+  },
+  "keywords": [
+    "kanye",
+    "api",
+    "quotes"
+  ],
+  "author": "MattPlays (https://github.com/MattPlays/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattPlays/Kanye.js/issues"
+  },
+  "homepage": "https://github.com/MattPlays/Kanye.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
