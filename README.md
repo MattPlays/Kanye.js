@@ -5,18 +5,12 @@
 ```bash
 npm i kanye.js
 ```
-
 # Usage
 ```javascript
 const kanye = require("kanye.js")
 kanye().then(({quote}) => {
     console.log(quote)
 });
-// Or
-(async () => {
-    let {quote} = await kanye();
-    console.log(quote);
-})();
 ```
 
 # License
