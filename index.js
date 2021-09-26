@@ -10,6 +10,8 @@ module.exports = async () => {
             "Accept": "application/json"
         }
     }).then(({data}) => {
-        return data;
+        return {
+            quote: new String(data.quote).toString()
+        };
     }).catch((err) => {throw new Error(err)});
 }
